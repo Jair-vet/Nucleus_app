@@ -96,9 +96,29 @@ img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
+        align-items: center;
     }
 }
-/* ?  */
+
+/* ? Header Texto e Imagen */
+.header__heading{
+    text-align: center;
+    font-size: 3rem;
+}
+@media (min-width: 768px) {  
+    .header__heading{
+        text-align: left;
+        font-size: 5rem;
+        line-height: 1.2;
+    }
+}
+
+@media (min-width: 768px) {  
+    .header__imagen {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+}
 
 
 /* ? Navegacion */
